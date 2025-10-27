@@ -1,16 +1,55 @@
-# React + Vite
+A React + Vite web app to explore countries around the world with details, weather, and news — built using the REST Countries, OpenWeather, and NewsAPI APIs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+🔎 Search and pagination for all countries
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📍 Detailed country info (flag, capital, region, languages, currencies, borders)
 
-## React Compiler
+🗺 Interactive map with location
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌦 Live weather for the capital city
 
-## Expanding the ESLint configuration
+📰 Latest 3 news headlines from that country
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+React + Vite
+
+Tailwind CSS
+
+React Router DOM
+
+REST Countries API
+
+OpenWeather API
+
+NewsAPI
+
+⚙️ Setup
+
+Clone the repo:
+
+git clone https://github.com/yourusername/country-explorer.git
+cd country-explorer
+
+Install dependencies:
+
+npm install
+
+Create a .env file:
+
+VITE_WEATHER_API_KEY=your_openweather_api_key
+VITE_NEWS_API_KEY=your_newsapi_key
+
+Run the app:
+
+npm run dev
+
+🌐 APIs Used
+
+REST Countries
+
+OpenWeather
+
+NewsAPI
